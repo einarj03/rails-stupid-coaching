@@ -1,0 +1,35 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: Arial;
+}
+
+.message-div, .answer-div {
+  border-left: 6px solid #DDDDDD;
+  padding: 2px 15px;
+  margin: 15px 15px;
+  & .message, .messenger {
+    font-weight: lighter;
+    font-size: 18px;
+    opacity: 0.8;
+  }
+
+  & .messenger {
+    font-style: italic;
+  }
+
+}
+
+.answer-div {
+  background-color: #FFFEE4;
+}
+
+a {
+  text-decoration: none;
+  color: #7B9CC5;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
